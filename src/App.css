@@ -1,0 +1,114 @@
+body{
+  background-color: rgb(45, 64, 89);
+  /* rgb(255, 180, 0) */
+}
+.App {
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 20px;
+  box-shadow: 2px 1px 5px 1px rgba(160, 160, 160, 0.801);
+  /* box-shadow: 0 10px 15px -3px rgba(25, 24, 26, 0.616), 0 4px 6px -2px rgba(25, 24, 26, 0.637); */
+  width: 270px;
+  min-height: 450px;
+  background-color: ivory;
+}
+.App>h1{
+  padding: 10px;
+  background-color: rgb(255, 180, 0) ;
+  color: white;
+  margin-top: 20px;
+}
+
+.App>input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid  rgb(255, 180, 0)  ;
+  margin-right: 10px;
+ text-align: center;
+ font-size: 16px;
+}
+
+.App> button{
+  border-radius: 100%;
+  margin: 5px;
+  background-color:  rgb(255, 180, 0)  ;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 30px;
+  color: white;
+  font-size: 16px;
+}
+button:hover{
+  background-color: #20bf6b;
+  cursor: pointer;
+}
+
+ol li{
+  text-align: left;
+  display: flex;
+  color: rgb(45, 64, 89) ;
+  font-size: 18px;
+}
+
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style .fa-trash-o{
+  width: 15px;
+  height: 15px;
+  justify-content: center;
+  background-color: rgb(255, 180, 0)  ;
+  border-radius: 50%;
+  color: aliceblue;
+  padding: 8px;
+  margin: 5px 15px 0 35px;
+}
+
+.todo_style .fa-trash-o:hover{
+  background-color: red;
+  cursor: pointer;
+}
+
+.App2 {
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 2px 1px 5px 1px rgb(175, 175, 175);
+  /* box-shadow: 0 10px 15px -3px rgba(25, 24, 26, 0.616), 0 4px 6px -2px rgba(25, 24, 26, 0.637); */
+  width: 270px;
+  min-height: 250px;
+  background-color: ivory;
+}
+.App2>h1{
+  padding: 10px;
+  background-color: rgb(255, 180, 0) ;
+  color: white;
+  
+}
+
+
+.btn{
+  margin: 60px 30px 5px 30px !important;
+  background-color:  rgb(255, 180, 0)  ;
+  border: none;
+  outline: none;
+  height: 40px !important;
+  width: 50px !important;
+  color: white;
+  font-size: 16px;
+  /* border-radius: 10px !important; */
+  box-shadow: 2px 1px 5px 1px rgb(112, 112, 112);
+}
+.btn:hover{
+  cursor: pointer !important;
+  color: green !important;
+}
+
+#btnr:hover{
+  color: red !important;
+}
